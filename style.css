@@ -81,6 +81,12 @@
   font-size: 26px;
   margin: 46px 0px 25px 0px;
 }
+.title-course-fourth {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 45px;
+}
 .first-course-article {
   margin-bottom: 20px;
 }
@@ -142,4 +148,15 @@
   font-weight: 400;
   font-size: 12px;
   margin: 0px 0px 60px -23px;
+}
+.program-of-course {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.program{
+    width: 186px;
+    height: 153px;
 }
