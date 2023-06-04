@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  width: 375px;
+}
+project {
+  width: 100%;
+}
 .main {
-  padding: 36px 32px 0px 35px;
-  width: 308px;
+  padding: 36px 32px 45px 35px;
+  background-color: aqua;
 }
 .pic-synchronicity-black img {
   width: 52px;
@@ -186,9 +193,9 @@
 .last {
   margin-bottom: 5px;
 }
-.lastest {
+/* .lastest {
   margin-bottom: 47px;
-}
+} */
 .article-program {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -198,15 +205,14 @@
 }
 .part-of-student {
   background-color: #efefef;
-  width: 307px;
-  padding: 42px 34px 50px;
+  padding: 36px 32px 40px 35px;
 }
 .title-of-student {
   font-family: "Roboto", sans-serif;
   width: 260px;
   font-weight: 700;
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .frame-of-student {
   background-color: #ffffff;
@@ -243,9 +249,8 @@
   margin: 10px 0px 20px 0px;
 }
 .footer-one {
+  padding: 36px 32px 45px 35px;
   background-color: #9dc9c8;
-  width: 309px;
-  padding: 62px 33px 60px;
 }
 .title-of-footer {
   width: 225px;
@@ -286,9 +291,8 @@
 .footer-two {
   display: flex;
   flex-direction: column;
-  width: 335px;
   background-color: #000000;
-  padding: 23px 0px 15px 40px;
+  padding: 36px 32px 45px 35px;
 }
 .pic-synchronicity-white img {
   margin-bottom: 14px;
@@ -341,8 +345,10 @@
   color: #ffffff;
   margin: 40px 0px 0px;
 }
-.complex-footer{
+.complex-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+}
+
 }
