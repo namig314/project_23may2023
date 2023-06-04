@@ -3,7 +3,7 @@
 body {
   width: 375px;
 }
-project {
+.project {
   width: 100%;
 }
 .main {
@@ -18,7 +18,6 @@ project {
 .inform-study {
   display: flex;
   flex-direction: row;
-  margin-bottom: 15px;
 }
 .inform {
   display: flex;
@@ -351,4 +350,39 @@ project {
   justify-content: space-between;
 }
 
+@media (min-width: 375px) {
+  body {
+    width: 834px;
+  }
+  .project {
+    width: 100%;
+    background-color: red;
+  }
+  .pic-synchronicity-black img {
+    width: 65px;
+    height: 38px;
+    margin-bottom: 57px;
+  }
+  .pic-globus img,
+  .pic-clock img,
+  .pic-calendar img {
+    width: 13px;
+    height: 11px;
+    margin-right: 3px;
+  }
+  .inform {
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+  .header {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 46px;
+    width: 330px;
+    margin-bottom: 21px;
+  }
 }
