@@ -89,6 +89,10 @@ body {
   font-size: 26px;
   margin-bottom: 20px;
 }
+.second-responsivity {
+  display: flex;
+  flex-direction: column;
+}
 .title-course-two {
   font-family: "Roboto Slab", serif;
   font-weight: 700;
@@ -110,21 +114,20 @@ body {
 .first-course-article {
   margin-bottom: 20px;
 }
-.course-main {
+.second-responsivity {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   margin-bottom: 15px;
 }
-.pic-cameraman {
+/* .pic-cameraman {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
+} */
 .pic-cameraman img {
   width: 170px;
   height: 160px;
-  margin-bottom: 65px;
 }
 .period-course {
   display: flex;
@@ -408,8 +411,35 @@ body {
   .author-of-quote {
     font-size: 13px;
     text-align: right;
-}
-.title-course-one {
-  font-size: 32px;
-  margin-bottom: 26px;
+  }
+  .title-course-one {
+    font-size: 32px;
+    margin-bottom: 26px;
+  }
+  .second-responsivity {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-course-article {
+    width: 370px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .second-course-article {
+    width: 380px;
+    font-size: 14px;
+    margin:0px 120px 40px 0px;
+  }
+  .pic-cameraman img {
+    width: 182px;
+    height: 182px;
+  }
+  .pic-rejissor img {
+    display: flex;
+    margin-right: 55px;
+    width: 135px;
+    height: 118px;
+  }
+
 }
