@@ -4,7 +4,7 @@
   padding: 0px;
 }
 body {
-  width: 375px;
+  width: 100vw;
 }
 .project {
   width: 100%;
@@ -200,6 +200,7 @@ body {
   border: 1px solid gray;
   border-radius: 16px;
   margin-bottom: 24px;
+  margin-inline: 10px;
 }
 .pic-program img {
   width: 186px;
@@ -378,9 +379,9 @@ body {
   justify-content: space-between;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 834px) {
   body {
-    width: 834px;
+    width: 100vw;
   }
   .project {
     width: 100%;
@@ -663,9 +664,9 @@ body {
   }
 }
 
-@media (min-width:834px){
+@media (min-width: 1440px){
 body{
-  width: 1440px;
+  width: 100vw;
 }
 .project{
   width: 100%;
